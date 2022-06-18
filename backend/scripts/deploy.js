@@ -2,7 +2,7 @@ const { ethers } = require("hardhat");
 require("dotenv").config({ path: ".env" });
 const { WHITELIST_CONTRACT_ADDRESS, METADATA_URL } = require("../constants");
 
-// 0x7d162C4147Bea220c730a6cDbFB6625dB3afd2d4 -Address
+// 0xA0480ECB4E22d7CA299f8f46e821E35E8C26B0b1 -Address
 async function main() {
   // Address of the whitelist contract that you deployed in the previous module
   const whitelistContract = WHITELIST_CONTRACT_ADDRESS;
